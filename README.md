@@ -9,4 +9,4 @@ mkdir FILES
 
 chmod a+x autorun.sh
 
-g++ Rasprive.cpp -o Rasprive
+g++ Audrive.cpp -o Audrive
