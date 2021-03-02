@@ -8,6 +8,9 @@ cd /Audrive/
 
 chmod a+x install.sh
 
+//Leer el siguiente link para configurar microfono
+//https://www.internetdelascosas.cl/2014/09/01/grabando-e-interpretando-sonidos-con-la-raspberry-pi/
+
 ./install.sh
 
 crontab -e
