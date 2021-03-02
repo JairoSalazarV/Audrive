@@ -1,6 +1,8 @@
 # Audrive
 Grabar audio en intervalos temporizados
 
+cd Documents
+
 git clone --depth=1 https://github.com/JairoSalazarV/Audrive
 
 cd /Audrive/
