@@ -6,8 +6,6 @@ git clone --depth=1 https://github.com/JairoSalazarV/Audrive
 
 cd /Audrive/
 
-chmod a+x getAudio.sh
-
 chmod a+x install.sh
 
 ./install.sh
