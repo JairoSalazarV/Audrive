@@ -1,25 +1,22 @@
 # Audrive
 Grabar audio en intervalos temporizados
 
-cd Documents
 
 git clone --depth=1 https://github.com/JairoSalazarV/Audrive
 
 cd /Audrive/
 
-mkdir FILES
+chmod a+x getAudio.sh
 
-chmod a+x autorun.sh
+chmod a+x install.sh
 
-g++ audrive.cpp -o audrive
-
-//Once Rasprive is working, add a deamon
+./install.sh
 
 crontab -e
 
 //Add line
 
-@reboot /home/pi/Documents/Audrive/autorun.sh
+@reboot /home/pi/Audrive/getAudio.sh [audioDuration] [sleepTime]
 
 //Reboot and check that AUDRIVE (locally) is working
 
