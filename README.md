@@ -9,4 +9,4 @@ mkdir FILES
 
 chmod a+x autorun.sh
 
-g++ Audrive.cpp -o Audrive
+g++ audrive.cpp -o audrive
