@@ -70,7 +70,7 @@ int main()
 		sleep( sleepTime );
         //Start a new audio recording
         tmpCommand.clear();
-        tmpCommand.append("arecord --duration=");
+	tmpCommand.append("XDG_RUNTIME_DIR=/run/user/1000 /usr/bin/arecord --duration=");
         tmpCommand.append(settings.audioDuration);
         tmpCommand.append(" ");
         tmpCommand.append(tmpString);
