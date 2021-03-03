@@ -13,6 +13,12 @@ chmod a+x install.sh
 
 ./install.sh
 
+//Guardar cambios
+
+sudo alsactl store 1
+
+//[EJEMPLO] arecord -d 10 -f cd ~/Audrive/FILES/test.wav
+
 crontab -e
 
 //Add line
